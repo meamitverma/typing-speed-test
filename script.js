@@ -4,7 +4,7 @@ const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
 
 let quote = "";
-let time = 6;
+let time = 0;
 let timer = "";
 let mistakes = 0;
 
@@ -94,7 +94,7 @@ function updateTimer() {
         displayResult();
     }
     else {
-        document.getElementById("timer").innerText == --time + "s";
+        document.getElementById("timer").innerText = --time + "s";
     }
 }
 
