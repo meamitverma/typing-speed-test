@@ -1,2 +1,2 @@
 ## Typing speed test
-### Link: https://github.io
+### Link: https://meamitverma.github.io/typing-speed-test/
